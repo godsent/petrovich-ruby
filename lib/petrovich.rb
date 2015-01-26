@@ -1,5 +1,4 @@
 # encoding: utf-8
-require 'yaml'
 require 'petrovich/unicode'
 require 'petrovich/rules'
 require 'petrovich/extension'
