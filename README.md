@@ -3,31 +3,23 @@
 Склонение падежей русских имён, фамилий и отчеств. Вы задаёте начальное имя
 в именительном падеже, а получаете в нужном вам.
 
+Форк этого замечательного гема для RPG Maker VX ACE
+
 [![Build Status](https://secure.travis-ci.org/petrovich/petrovich-ruby.png)](http://travis-ci.org/petrovich/petrovich-ruby)
 
 #### Посмотреть в действии: http://petrovich.rocketscience.it
 
 ## Установка
 
-Добавьте в Gemfile:
-
-```ruby
-gem 'petrovich'
-```
-
-Установите гем cредствами Bundler:
-
-    $ bundle
-
-Или установите его отдельно:
-
-    $ gem install petrovich
+Проще всего - добавте файл batch/batch.rb в скрипты проекта.
+Вариант посложнее - используйте https://github.com/godsent/rpg-maker-side-script-loader
 
 ## Зависимости
 
 Для работы гема требуется Ruby не младше версии 1.9.1. Petrovich не
 привязан к Ruby on Rails и может свободно использоваться практически
-в любых приложениях и библиотеках на языке Ruby.
+в любых приложениях и библиотеках на языке Ruby. 
+Для работы в RPG Maker VX ACE вам понадобится собственно RPG Maker VX ACE
 
 ## Использование
 
